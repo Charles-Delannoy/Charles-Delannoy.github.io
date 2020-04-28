@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="styleCV.css">
+        <title>CV - Charles DELANNOY</title>
+    </head>
+
+    <body>
+
+    <header>
+        
+        <figure class="flottant">
+            <a href="IMG_0117.jpg"><img src="IMG_0117.jpg" alt="Photo CV" title="Photo de moi" width=100/></a>
+        </figure>
+        <h1>Charles DELANNOY</h1>
+
+
+        <p class="intro">
+            Charles est diplômé de HEI, école d’ingénieur généraliste avec une année orientée <span class="gras">« informatique et technique de l’information »</span> et une année <span class="gras">« organisation et management de projet »</span>.  
+            <br/>
+            Après cette <a href="CV-CDE.html#formation">formation</a> en école d’<span class="gras">ingénieur</span>, complétée par plusieurs expériences dans le <span class="gras">Conseil</span>, Charles a décidé de rejoindre <span class="gras">PARTENOR GROUP</span> en 2015 pour mettre ses compétences au service des projets de transformation de ses clients. 
+		</p>
+
+    </header>
+
+        <h2 class="autretitre">Mes compétences</h2>
+
+
+        <section>
+            <h3>Seteurs d'activités</h3>
+
+
+                <ul>
+                    <li>Energie et Utilities (Electricité, nucléaire …)</li>
+                    <li>Secteur industriel, télécommunications</li>
+                    <li>Automobile</li>
+                </ul>
+        </section>
+
+        <section>
+                <h3>Types d'interventions</h3>
+
+
+                <ul>
+                    <li>Gestion de projet</li>
+                    <li>PMO</li>
+                    <li>Appui au pilotage</li>
+                    <li>AMOA</li>
+                    <li>Etude de cadrage</li>
+                    <li>Conduite du changement</li>
+                    <li>Design applicatif</li>
+                </ul>
+        </section>
+
+
+        <h2>Mon expérience</h2>
+            
+        <section id="table">
+                <table>
+                    <caption>Détail des expériences</caption>
+                    <thead>
+                        <tr>
+                            <th>dates</th>
+                            <th>Clients</th>
+                            <th>intitulé de mission</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <th>dates</th>
+                            <th>Clients</th>
+                            <th>intitulé de mission</th>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        <tr>
+                            <td>Janvier 2019 à Aujourd'hui</td>
+                            <td colspan="2">Captive bancaire d'un constructeur automobile</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>Mai 2018 à Décembre 2018</td>
+                            <td rowspan="4">Constructeur automobiles</td>
+                            <td>Design d'un logiciel de vente pour internationalisation</td>
+                        <tr>
+                            <td>Octobre 2017 à Avril 2018</td>
+                            
+                            <td>Déploiement d’un logiciel de vente basé sur Salesforce</td>
+                        <tr>
+                            <td>Mai 2017 à Spetembre 2018</td>
+                            
+                            <td>Conduite du changement au sein d’un projet de poste de vente basé sur Salesforce</td>
+                        <tr>
+                            <td>Janvier 2017 à Mars 2018</td>
+                            
+                            <td>PMO sur un projet de transformation digital CRM</td>
+                        <tr>
+                            <td>Mai 2016 à Octobre 2016</td>
+                            <td rowspan="2">Producteur d'énergie</td>
+                            <td>Appui à l’engagement d'un projet SI autour d'un système de management intégré</td>
+                        <tr>
+                            <td>Mai 2015 à avril 2016</td>
+                            
+                            <td>Appui au pilotage d'un projet de migrations applicatives</td>
+                        </tr>
+                    </tbody>
+                </table>
+        </section>
+
+        <h2 id="formation">Ma formation</h2>
+        
+        <section>
+            <ul class="largelist">
+                <li>
+                    <strong>Décembre 2014</strong> - Diplomé Ingénieur généraliste, <em>Informatique et technique de l'information</em> & <em>Organisation et management des entreprises</em>
+                </li>
+                <li>
+                    <strong>De 2008 à 2014</strong> - Etudiant à HEI (Hautes Etudes d'I</strong>ngénieur)
+                </li>
+            </ul>
+        </section>
+
+        <footer>
+            
+            <form method="post" action="doc.php">
+
+            <fieldset>
+                <legend>Me contacter</legend>
+                <p><br/><br/>
+                    <label for="age">votre age</label><br/>
+                    <input type="number" />
+                <br/><br/>
+                    <label for="anniv">votre date de naissance</label><br/>
+                    <input type="date" id="anniv"/>
+                <br/><br/>
+                    <label for="mail">adresse mail</label><br/>
+                    <input type="email" name="adresse mail" id="mail" placeholder="example@mail.com" required />
+                <br/><br/>
+                    <label for="message">Votre message</label><br/>
+                    <textarea rows="6" cols="80" id="message">message</textarea>
+                <br/><br/>
+                    <label for="note">Notez mon CV</label><br/>
+                    <input type="range" min="0" max="5" id="note"/>
+                <br/><br/>
+                    <input type="checkbox" checked id="infos"/><label for="infos">Recevoir de mes nouvelles</label>
+                <br/><br/>
+                </p>
+                    <p>Quelles est la section qui vous a le plus interessé ?</p><br/>
+                <p>
+                    <input type="radio" name="section" value="competences" id="comp"/><label for="comp">Mes compétences</label><br/>
+                    <input type="radio" name="section" value="expérience" id="exp"/><label for="exp">Mes expériences</label><br/>
+                    <input type="radio" name="section" value="formation" id="form"/><label for="form">Ma formation</label><br/>
+                <br/>
+                <label for="reco">Recommanderiez vous mon profil ?</label><br/>
+                <select name="reco" id="reco">
+                    <optgroup label="Oui/Non">
+                        <option value="oui">Oui</option>
+                        <option value="non">Non</option>
+                    </optgroup>
+                    <optgroup label="Autres">
+                        <option value="nsp" selected>Ne se prononce pas</option>
+                    </optgroup>
+                </select>
+                <br/><br/>
+
+                <input type="submit" value="envoyer">
+
+                </p>
+                </fieldset>
+
+            </form>
+
+        </footer>
+
+    </body>
+</html>
