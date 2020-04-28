@@ -1,0 +1,278 @@
+/* Afin de valider ton code CSS, clic sur la petite flèche en haut à droite de cette fenêtre. Pour rappel, tu peux jeter un oeil par ici pour en savoir un peu plus: https://blog.codepen.io/2017/10/11/analyze-css-now-using-stylelint/ */
+
+/* Ecris ici ton code CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+
+.google 
+{
+    font-family: 'Amatic SC', serif;
+}
+
+/* GENERAL */
+
+body
+{
+	background: url(https://static7.depositphotos.com/1273672/754/v/950/depositphotos_7541501-stock-illustration-tricolor-grunge-circus-background.jpg) no-repeat fixed center;
+	background-size: cover;
+}
+
+h3, h2
+{
+	text-align: center;
+  font-family: Amatic SC;
+}
+
+h3
+{
+  font-size: 1.7em;
+}
+
+h2
+{
+	background-color: rgb(235, 175, 81);
+	border-radius: 8px 8px 0 0;
+  font-size: 2em;
+}
+
+section
+{
+	background-color: rgba(242, 231, 184, 0.9);
+	border-radius: 8px;
+	box-shadow: 0 2px 2px 0 grey;
+}
+
+.gras
+{
+	font-weight: bold;
+}
+
+/* END GENERAL */
+
+/* HEADER */
+
+#page
+{
+	width: 95%;
+	margin: auto;
+}
+
+header
+{
+    border-bottom: double;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(242, 231, 184, 0.9);
+    height: 280px;
+    margin: auto;
+    position: relative;
+    border-radius: 8px;
+}
+
+header img
+{
+
+	max-width: 70%;
+}
+
+ nav
+ {
+ 	position: absolute;
+ 	bottom: 0;
+ 	background-color: rgba(120, 120, 120, 0.5);
+ 	width: 100%;
+ 	height: auto;
+ 	font-family: Amatic SC;
+  font-size: 1.2em;
+ }
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+nav li
+{
+	margin-bottom: 5px;
+    background-color: rgba(242, 231, 184, 0.9);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    text-align: center;
+    margin-right: 10px;
+    width: 130px;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+}
+
+nav li:hover
+{
+    color: #877007;
+    font-weight: bold;
+    background-color: white;
+}
+
+/* END HEADER */
+
+
+/* SECTIONS */
+
+section ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+section li
+{
+	margin-right: 1%;
+	margin-left: 1%;
+	margin-bottom: 1%;
+	background-color: rgba(120, 120, 120, 0.8);
+	color: rgba(242, 231, 184, 0.9);
+	padding: 2%;
+	border-radius: 5px;
+	width: 30%
+}
+
+li figure
+{
+	text-align: center
+}
+
+li img
+{
+	width: 85%;
+}
+
+table
+{
+    border-collapse: collapse;
+    margin: auto;
+
+}
+
+td, th
+{
+    border-bottom: 1px solid black;
+    width: 150px;
+    text-align: center;
+}
+
+
+form
+{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+
+fieldset
+{
+	border: none;
+}
+
+form p
+{
+	text-align: center;
+}
+
+#ticket
+{
+	background: url(https://www.color-stickers.com/1924-thickbox_default/sticker-cirque-ticket-entree-rouge.jpg) center no-repeat;
+	background-size: cover;
+}
+
+#wildcircus
+{
+	display: flex;
+    align-items: flex-start;
+}
+
+#wildcircus p
+{
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+article
+{
+    flex: 3;
+    padding: 5px 5px 5px 5px;
+}
+
+aside img
+{
+	width: 200px;
+}
+
+aside
+{
+    flex: 1;
+	background-color: rgba(120, 120, 120, 0.5);
+	color: #ecedca;
+
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+/* FOOTER */
+
+footer
+{
+	margin-top: 1%;
+	background-color: #21adab;
+	height: 50px;
+	position: relative;
+}
+
+footer p
+{
+	position: absolute;
+	bottom: 0;
+	margin: auto;
+  color: white;
+}
+
+footer a:hover
+{
+	color: white;
+}
+
+/* END FOOTER */
+
+
+/* reponsive */
+
+@media all and (max-width: 980px)
+{
+	#wildcircus
+    {
+        margin-top: 10px;
+        margin-left: 1%;
+        flex-direction: column-reverse;
+    }
+
+    aside
+    {
+        flex-direction: row;
+    }
+}
+
+

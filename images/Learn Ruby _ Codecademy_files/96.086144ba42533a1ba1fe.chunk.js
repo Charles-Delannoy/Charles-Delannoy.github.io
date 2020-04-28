@@ -1,0 +1,2 @@
+(window.__LOADABLE_LOADED_CHUNKS__=window.__LOADABLE_LOADED_CHUNKS__||[]).push([[96],{hfeQ:function(n,_,c){"use strict";c.d(_,"a",function(){return e});var e=function selectExerciseForumData(n,_,c){return n.forums.exercises["".concat(_,"--").concat(c)]||{}}}}]);
+//# sourceMappingURL=96.086144ba42533a1ba1fe.chunk.js.map

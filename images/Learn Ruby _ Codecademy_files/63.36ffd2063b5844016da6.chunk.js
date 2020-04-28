@@ -1,0 +1,2 @@
+(window.__LOADABLE_LOADED_CHUNKS__=window.__LOADABLE_LOADED_CHUNKS__||[]).push([[63],{"0aZL":function(t,a,n){"use strict";n.d(a,"a",function(){return c}),n.d(a,"b",function(){return pathCardAssetPath}),n.d(a,"c",function(){return pathMarketingPageHeroPath});var c="https://cdn.codecademy.com/assets";function pathCardAssetPath(t){return"".concat(c,"/components/cards/path-card/").concat(t,".svg")}function pathMarketingPageHeroPath(t){return"".concat(c,"/path-marketing-page/hero-assets/").concat(t,".svg")}}}]);
+//# sourceMappingURL=63.36ffd2063b5844016da6.chunk.js.map
