@@ -4,7 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
 
-.google 
+.google
 {
     font-family: 'Amatic SC', serif;
 }
@@ -119,7 +119,7 @@ nav li:hover
 {
     color: #877007;
     font-weight: bold;
-    background-color: white;
+    background-color: white .3s ease;
 }
 
 /* END HEADER */
